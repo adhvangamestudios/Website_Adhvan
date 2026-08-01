@@ -1,21 +1,48 @@
-# Adhvan Website
+# Adhvan Website v1.1
 
-## Open in WebStorm
-1. Extract the ZIP.
-2. File > Open and choose `adhvan-website`.
-3. Open the Terminal in WebStorm.
-4. Run `npm install`.
-5. Run `npm run dev`.
-6. Open http://localhost:3000
+This package includes the revised premium homepage, the real 10-second hero loop, the 58-second reveal video, responsive UI, icons, animations, and the press-kit page.
 
-## Add your videos
-- Homepage loop: `public/videos/hero.mp4`
-- Reveal video: `public/videos/reveal.mp4`
+## Update your existing WebStorm project
 
-The supplied image is used as the poster until those videos are added.
+1. Stop the running server with `Ctrl+C`.
+2. Back up or commit your current version.
+3. Copy the contents of this folder over your existing `Website_Adhvan` folder and allow replacement.
+4. In the WebStorm terminal run:
 
-## Deploy on Vercel
-Upload the folder to a private GitHub repository, import it in Vercel, and click Deploy. Vercel detects Next.js automatically.
+```powershell
+npm install
+npm run dev
+```
 
-## Change text and content
-Edit `content/site.ts`.
+5. Open `http://localhost:3000`.
+
+## Included interactions
+
+- Fullscreen looping hero video
+- Sound on/off control
+- Animated ADHVAN title, one-line tagline, and buttons
+- Fullscreen reveal-video lightbox with audio
+- Continue Journey / Replay state when the reveal ends
+- White translucent transition section
+- Scroll reveal animations
+- Card hover animations
+- Responsive mobile navigation
+- Press Kit page
+
+## Content edits
+
+Edit text in `content/site.ts`.
+
+Update placeholder social URLs in:
+
+- `components/Hero.tsx`
+- `components/Footer.tsx`
+
+The current World cards reuse the supplied hero imagery until final screenshots are supplied.
+
+
+## v1.2 fixes
+- Cropped and vertically aligned navigation logo
+- Matched letter spacing between ADHVAN and tagline
+- Removed initial white-section overlap
+- Kept social icons above the transition layer
