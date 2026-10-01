@@ -21,9 +21,9 @@ export const metadata: Metadata = {
       "A premium action-adventure set in an original world inspired by Indian philosophical thought.",
     images: [
       {
-        url: "/images/hero-poster.jpg",
-        width: 1920,
-        height: 1080,
+        url: "/images/social-preview.jpg",
+        width: 1200,
+        height: 630,
         alt: "Adhvan — A Journey of Consciousness",
       },
     ],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Adhvan | A Journey of Consciousness",
     description:
       "A premium action-adventure set in an original world inspired by Indian philosophical thought.",
-    images: ["/images/hero-poster.jpg"],
+    images: ["/images/social-preview.jpg"],
   },
 };
 
